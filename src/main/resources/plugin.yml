@@ -1,0 +1,13 @@
+name: SquidGame
+version: 1.0.0
+main: com.yourname.squidgame.SquidGame
+api-version: 1.13
+author: ExpertDeveloper
+description: An automated Squid Game tournament minigame.
+depend: [Vault]
+commands:
+  squidgame:
+    description: Main command for Squid Game management.
+    aliases: [sg]
+    permission: squidgame.admin
+    usage: /squidgame [start/stop/setlobby]
